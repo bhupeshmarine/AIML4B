@@ -4,4 +4,5 @@ __pycache__/
 git_connect.docx
 directory_basics.docx
 directory_basics.pdf
+~$*.docx
 *.pyc
