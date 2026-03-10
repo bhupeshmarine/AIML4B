@@ -83,7 +83,7 @@ def verify_conda_environment(env_name="aiml_env"):
         
         if env_name in output:
             display(Markdown("**Congratulations!!! You made it.**"))
-            print(f"The environment '{env_name}' has been created successfully.")
+            print(f"You have created environment '{env_name}' successfully using yaml file which has installed pyton and other dependencies like pandas, numpy etc. as mentioned in environment.yaml file")
         else:
             display(Markdown("**Test Failed. read instructions and create again**"))
             print(f"The environment '{env_name}' was not found.")
