@@ -1,0 +1,8 @@
+name: aiml_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.4.0
+  - pandas=3.0.1
+  - ipykernel
