@@ -103,3 +103,79 @@ def verify_python_version_from_yaml(expected_version="3.11"):
     else:
         display(Markdown("**Nope! Check environment.yml file again**"))
         print("You did not check the YAML file correctly. Go and check it again and re-run this cell.")
+
+def verify_task_1(student_list):
+    expected = ["Bhupesh", "Rahul", "Aman", "Neha", "Riya"]
+    
+    if student_list == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", student_list)
+
+def verify_task_2(student_list):
+    expected = ["Bhupesh", "Rahul", "Karan", "Neha", "Riya"]
+    
+    if student_list == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", student_list)
+
+def verify_task_3(student_list):
+    expected = ["Bhupesh", "Arjun", "Karan", "Neha", "Riya", "Simran"]
+    
+    if student_list == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", student_list)
+
+def verify_task_4(student_dict):
+    expected = {
+        "name": "Bhupesh",
+        "roll": 1234,
+        "city": "Dallas"
+    }
+    
+    if student_dict == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", student_dict)
+
+def verify_task_5(student_dict):
+    expected = {
+        "name": "Bhupesh",
+        "roll": 1234,
+        "city": "Boston",
+        "course": "Python"
+    }
+    
+    if student_dict == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", student_dict)
+
+def verify_task_6(employee_dict):
+    expected = {
+        "name": "Rahul",
+        "id": 101,
+        "department": "Sales",
+        "salary": 50000
+    }
+    
+    if employee_dict == expected:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print("Expected:", expected)
+        print("Got     :", employee_dict)
+
+
