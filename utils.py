@@ -1,6 +1,7 @@
 import os
 from IPython.display import Markdown, display
 import subprocess
+import pandas as pd
 
 def question1():
     statement = (
